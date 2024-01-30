@@ -33,6 +33,6 @@ app.get('/generate-pdf', async (req, res) => {
     }
 });
 
-app.listen(5060, () => {
+app.listen(443, () => {
     console.log('Server is running on port 5060');
 });
